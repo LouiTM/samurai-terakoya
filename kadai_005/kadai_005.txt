@@ -1,0 +1,9 @@
+mkdir git_challenge
+cd .\git_challenge\
+New-Item -Path "hello_world.txt" -ItemType file
+git init
+git add.
+git ccomit -m "first commit"
+git add .
+git ccomit -m "second commit"
+git log
