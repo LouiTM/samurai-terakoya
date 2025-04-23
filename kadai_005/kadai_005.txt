@@ -1,9 +1,9 @@
 mkdir git_challenge
 cd .\git_challenge\
-echo "hello world!" >> kadai_005.txt
+echo "hello world" >> hello_world.txt
 git init
-git add.
+git add hello_world.txt
 git commit -m "hello world.txtを追加"
-git add .
+git add hello_world.txt
 git commit -m "日本語訳を追記"
 git log --oneline
